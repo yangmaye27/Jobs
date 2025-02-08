@@ -1,0 +1,16 @@
+.container {
+  height: calc(100vh - 64px - 65px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  background-image: url(/public/bgc.jpg);
+  background-size: 100% 100%;
+
+  .content {
+    background-color: #d9d5d5da;
+    padding: 20px 40px;
+    border-radius: 10%;
+  }
+}

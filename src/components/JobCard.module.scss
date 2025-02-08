@@ -1,0 +1,82 @@
+.card {
+  background-color: #fff;
+  padding: 16px;
+  border-radius: 16px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  width: 360px;
+  border: 1px solid #e0e0e0;
+  transition: box-shadow 0.3s;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  cursor: pointer;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  transform: scale(1.05);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+}
+
+.salary {
+  color: #e63946;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.details {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+.tag {
+  background-color: #f1f1f1;
+  padding: 4px 8px;
+  border-radius: 8px;
+}
+
+.company {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #e0e0e0;
+  padding-top: 12px;
+}
+
+.company-info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.company-avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.company-title {
+  font-weight: 500;
+  color: #333;
+}
+
+.company-details {
+  color: #888;
+  font-size: 12px;
+}

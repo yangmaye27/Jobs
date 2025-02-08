@@ -13,6 +13,15 @@
 
 .main {
   min-height: calc(100vh - 64px - 71px);
+  background: linear-gradient(
+    to bottom,
+    rgba(192, 230, 245, 0.818) 2%,
+    rgba(188, 228, 244, 0.616) 8%,
+    rgb(211, 238, 248) 15%,
+    rgb(221, 239, 245) 20%,
+    rgb(225, 238, 242) 30%,
+    white
+  );
 }
 
 .footer {

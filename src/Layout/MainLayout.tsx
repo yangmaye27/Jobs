@@ -13,6 +13,7 @@ const { Header, Content, Footer } = Layout;
 
 const MainLayout: FC = () => {
   const location = useLocation();
+  // useNavPage();
 
   return (
     <Layout>
@@ -20,7 +21,11 @@ const MainLayout: FC = () => {
         <div className={styles.left}>
           <Space>
             <Logo></Logo>
-            {location.pathname !== "/" && <MenuContent />}
+            {!(
+              location.pathname === "/" ||
+              location.pathname === "/login" ||
+              location.pathname === "/register"
+            ) && <MenuContent />}
           </Space>
         </div>
         <div className={styles.right}></div>
